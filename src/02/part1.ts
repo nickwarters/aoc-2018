@@ -41,8 +41,6 @@ function solve(input: string): number {
             counts[line.charAt(i)] += 1
         }
 
-        console.log({counts})
-
         let countedTwo = false
         let countedThree = false 
         for(const key in counts){
